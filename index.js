@@ -8,17 +8,6 @@ async function sleep(ms) {
 
 function apikeys(count){
     keys = [
-        "AIzaSyDlXCp7UyRNNoo8P-vphncdJ8jBCBleU4Y",
-        "AIzaSyBcksVTzi-O7zj_HDCurtCcFVxRXr1g4BU",
-        "AIzaSyD8KKwsa2zWhvmHGtwTmoIJ1t99Sm_ZGxo",
-        "AIzaSyCh_BP5XJz_5XlhIRki4bI9vYmMmPoUWKM",
-        "AIzaSyBCjNDKhMRTdOZRlO46HxG4yfhXsdpgWLg",
-        "AIzaSyBqWU_eWFZqcp9o5AuL7CZP8s_CZgZ67F8",
-        "AIzaSyDFQ6zjqI06GZCS4Y_zmmkt1TmQpPzylBw",
-        "AIzaSyDty0bMvN6WnAuzHap7w_QCb5-7BwcDOao",
-        // "AIzaSyDsnebyuyDkPQGA6_ntmUFs0WAh8GKc4mw",
-        "AIzaSyAqYx5_nk6V5oY2X4woQG9Keeu0BmzMWpM",
-        "AIzaSyBxG3mQxcCutViJMvKDU1tRGGIBmoRNRRc"
     ]
     return keys[count%10]
 }
